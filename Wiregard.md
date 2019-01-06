@@ -8,3 +8,8 @@ https://www.wireguard.com
 
 https://github.com/atrandys/wireguard
 
+
+   > wg genkey | tee sprivatekey | wg pubkey > spublickey
+   > wg genkey | tee cprivatekey | wg pubkey > cpublickey
+   
+   
