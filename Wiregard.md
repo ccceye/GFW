@@ -17,11 +17,13 @@ https://github.com/atrandys/wireguard
    
 ## Some files in /etc/wirguard, client.conf and key files.
 
+configuration files: wg0.conf    client.conf
+
 > wg-quick up wg0
 
 > wg-quick down wg0
 
-> wg
+> wg  ## show wg
 
 ----------
 
