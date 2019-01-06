@@ -22,3 +22,4 @@
 
 > sysctl -p
 
+reboot, 才能关闭bbr.
