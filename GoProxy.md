@@ -26,7 +26,11 @@ https://github.com/snail007/goproxy/releases
 
 > wget download-link
 
-## VPS's .bashrc add this line for GoProxy:
+### VPS's .bashrc add this line for GoProxy:
 
 > alias goproxy='proxy http -t tls -p ":443" -C /etc/proxy/proxy.crt -K /etc/proxy/proxy.key --forever --log /etc/proxy/proxy.log --daemon'
+
+### macOS command line:
+
+> ./proxy http -t tcp -p ":8080" -T tls -P "1.2.3.4:443" -C proxy.crt -K proxy.key -b blocked.txt -d direct.txt
 
